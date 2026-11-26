@@ -1,0 +1,85 @@
+{
+  "scope": "/mnt/data/Forensics_Final_Project/sample_evidence",
+  "note": "Read-only folder analysis; event CSV is supplied sample/export data, not live Windows Event Log acquisition. Flags are leads, not malware verdicts.",
+  "files": [
+    {
+      "path": "notes.txt",
+      "size_bytes": 40,
+      "extension": ".txt",
+      "modified_utc": "2026-11-23T02:42:16.654109+00:00",
+      "sha256": "c0baedb74ec525bee5d11b35e24cff4e055e51a44af84bf31449a2832a9e78da",
+      "review_flag": false
+    },
+    {
+      "path": "report.txt",
+      "size_bytes": 45,
+      "extension": ".txt",
+      "modified_utc": "2026-11-23T02:42:16.654109+00:00",
+      "sha256": "80eab10d801d8d567e69b4e276d10f924b5517bdabc102fac923d309775bff76",
+      "review_flag": false
+    },
+    {
+      "path": "review_me.bat",
+      "size_bytes": 35,
+      "extension": ".bat",
+      "modified_utc": "2026-11-23T02:42:16.654109+00:00",
+      "sha256": "f280d5da2bf09f355657900c3f6cd15bb53eda5f6698e8bdda17b1cfa2cf2963",
+      "review_flag": true
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "2026-11-18T14:01:00+00:00",
+      "event_id": "4625",
+      "description": "Simulated failed account logon"
+    },
+    {
+      "timestamp": "2026-11-18T14:03:00+00:00",
+      "event_id": "4624",
+      "description": "Simulated successful account logon"
+    },
+    {
+      "timestamp": "2026-11-18T14:05:00+00:00",
+      "event_id": "4688",
+      "description": "Simulated process creation"
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "2026-11-18T14:01:00+00:00",
+      "source": "sample event CSV",
+      "description": "Event 4625: Simulated failed account logon"
+    },
+    {
+      "timestamp": "2026-11-18T14:03:00+00:00",
+      "source": "sample event CSV",
+      "description": "Event 4624: Simulated successful account logon"
+    },
+    {
+      "timestamp": "2026-11-18T14:05:00+00:00",
+      "source": "sample event CSV",
+      "description": "Event 4688: Simulated process creation"
+    },
+    {
+      "timestamp": "2026-11-23T02:42:16.654109+00:00",
+      "source": "file metadata",
+      "description": "Modified: notes.txt"
+    },
+    {
+      "timestamp": "2026-11-23T02:42:16.654109+00:00",
+      "source": "file metadata",
+      "description": "Modified: report.txt"
+    },
+    {
+      "timestamp": "2026-11-23T02:42:16.654109+00:00",
+      "source": "file metadata",
+      "description": "Modified: review_me.bat"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "file_count": 3,
+    "flagged_count": 1,
+    "event_count": 3
+  }
+}

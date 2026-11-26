@@ -1,0 +1,7 @@
+timestamp,source,description
+2026-11-18T14:01:00+00:00,sample event CSV,Event 4625: Simulated failed account logon
+2026-11-18T14:03:00+00:00,sample event CSV,Event 4624: Simulated successful account logon
+2026-11-18T14:05:00+00:00,sample event CSV,Event 4688: Simulated process creation
+2026-11-23T02:42:16.654109+00:00,file metadata,Modified: notes.txt
+2026-11-23T02:42:16.654109+00:00,file metadata,Modified: report.txt
+2026-11-23T02:42:16.654109+00:00,file metadata,Modified: review_me.bat
