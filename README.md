@@ -1,5 +1,4 @@
 # Digital-Forensics-Investigation-Toolkit
-# Digital Forensics Investigation Toolkit
 
 ## Project Overview
 
